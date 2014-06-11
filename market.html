@@ -1,0 +1,173 @@
+
+<head>
+	<title>Super Market</title>
+
+	<style>
+
+	body {
+
+	  margin: 0px;
+	  overflow: hidden;
+	}
+
+	.hud {
+		width : 245px;
+		height : auto;
+		float: right;
+		position: absolute;
+		opacity: 0.75;
+		bottom:0px;
+		display: block;
+		margin-top: 0px;
+		margin-right: 15px;
+		right: 0px;
+		overflow:scroll;
+		background-color: black;
+	}
+
+	.listItem {
+		cursor: pointer;
+		list-style-type: none;
+		color: white;
+		font-family: helvetica;
+
+	}
+
+	.listHeader {
+		cursor: default;
+		list-style-type: none;
+		color: white;
+		font-weight:bold;
+		font-family: helvetica;
+	}
+
+	.list {
+		cursor: pointer;
+		margin-left: 0px;
+		padding: 5px;
+	}
+
+	.inspectionHud {
+		width : auto;
+		height : auto;
+		position: absolute;
+		top:0px;
+		left:0px;
+		margin-left: 15px;
+		color: white;
+		font-weight:bold;
+		font-family: helvetica;
+		padding: 5px;
+		display : none;
+
+	}
+
+	.inspectionText {
+		font-size: 5em;
+	}
+
+	.inspectionButton {
+		font-size: 2em;
+		cursor: pointer;
+	}
+
+	.cart {
+		width : 245px;
+		height : auto;
+		float: right;
+		position: absolute;
+		opacity: 0.75;
+		top:0px;
+		display: block;
+		margin-top: 0px;
+		margin-right: 15px;
+		right: 0px;
+		overflow:scroll;
+		background-color: black;
+	}
+
+	.cartList {
+		cursor: pointer;
+		margin-left: 0px;
+		padding: 5px;
+	}
+
+	.cartFooter {
+		cursor: default;
+		list-style-type: none;
+		color: white;
+		font-weight:bold;
+		font-family: helvetica;
+	}
+
+	.cartListItem {
+		cursor: pointer;
+		list-style-type: none;
+		color: white;
+		font-family: helvetica;
+	}
+
+	.cartHeader {
+		cursor: default;
+		list-style-type: none;
+		color: white;
+		font-size: 20px;
+		font-weight:bold;
+		font-family: helvetica;
+	}
+
+	</style>
+</head>
+
+<!-- 
+This file is fairly self-explanatory. The html below includes the container div,
+which is the parent element for everything else. In market.js the renderer appends
+an html5 canvas object to this container. This canvas is what the gl view is drawn
+on. The container also has a few other elements which work as the hud. 
+
+Styling for the hud is above in the form of CSS. Below the html all the js files
+needed by the application are included.
+-->
+
+<body>
+	<div id='container'>
+	
+		<div class='hud' >
+			<ul class='list'>
+				<li class='listHeader'>Departments</li>
+			</ul>
+		</div>
+		
+		<div class='inspectionHud'>
+			<b class='inspectionText' id='itemName'></b>
+			<br>
+			<b class='inspectionText' id='itemPrice'></b>
+			<br>
+			<button class='inspectionButton' onclick="hideInspectionHud()">Back</button>
+			<button class='inspectionButton' onclick="addToCart()">Add to cart</button>
+		</div>  
+
+		<div class='cart'>
+			<u class='cartHeader'>Cart</u>
+			<ul class='cartList'>
+				<li class='cartFooter'>
+					<b>Total: $</b>
+					<b id='cartTotal'>0.00</b>
+				</li>
+			</ul>
+		</div>
+	
+	</div>		
+
+	<script src="js/Three62.js"></script>
+	<script src="js/THREEx.KeyboardState.js"></script>
+	<script src="js/shelf.js"></script>
+	<script src="js/JSONLoader.js"></script>
+	<script src="js/ConfigLoader.js"></script>
+	<script src='js/tween.min.js'></script>
+	<script src='js/jquery.js'></script>
+	<script src="js/helvetica.js"></script>
+	<script src="js/market.js"></script>
+
+
+</body>

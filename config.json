@@ -1,0 +1,369 @@
+{
+	"departments" : {
+		"Drinks" : [
+			{
+				"name" : "Red Bull",
+				"department" : "Drinks",
+				"sku" : 1111,
+				"type" : "cylinder",
+				"materials" : {
+					"top" : "images/soup_top.jpg",
+					"bottom" : "images/soup_bottom.jpg",
+					"label" : "images/red_bull_label.png"
+				},
+				"dimensions" : {
+					"radius" : 1.5,
+					"height" : 6
+				},
+				"quantity" : 42,
+				"price" : 3.59
+			},
+			{
+				"name" : "Facade",
+				"department" : "Drinks",
+				"sku" : 1111,
+				"type" : "cylinder",
+				"materials" : {
+					"top" : "images/soup_top.jpg",
+					"bottom" : "images/soup_bottom.jpg",
+					"label" : "images/facade.jpg"
+				},
+				"dimensions" : {
+					"radius" : 2.0,
+					"height" : 8
+				},
+				"quantity" : 5,
+				"price" : 0.99
+			},
+			{
+				"name" : "VOLT",
+				"department" : "Drinks",
+				"sku" : 2222,
+				"type" : "cylinder",
+				"materials" : {
+					"top" : "images/soup_top.jpg",
+					"bottom" : "images/soup_bottom.jpg",
+					"label" : "images/VOLT.jpg"
+				},
+				"dimensions" : {
+					"radius" : 1.5,
+					"height" : 6
+				},
+				"quantity" : 42,
+				"price" : 2.99
+			},
+			{
+				"name" : "Cocaine",
+				"department" : "Drinks",
+				"sku" : 3333,
+				"type" : "cylinder",
+				"materials" : {
+					"top" : "images/soup_top.jpg",
+					"bottom" : "images/soup_bottom.jpg",
+					"label" : "images/Cocaine.jpg"
+				},
+				"dimensions" : {
+					"radius" : 1.5,
+					"height" : 6
+				},
+				"quantity" : 42,
+				"price" : 2.99
+			},
+			{
+				"name" : "Monster",
+				"department" : "Drinks",
+				"sku" : 4444,
+				"type" : "cylinder",
+				"materials" : {
+					"top" : "images/soup_top.jpg",
+					"bottom" : "images/soup_bottom.jpg",
+					"label" : "images/Monster.jpg"
+				},
+				"dimensions" : {
+					"radius" : 1.5,
+					"height" : 6
+				},
+				"quantity" : 42,
+				"price" : 2.99
+			},
+			{
+				"name" : "One Shot",
+				"department" : "Drinks",
+				"sku" : 5555,
+				"type" : "cylinder",
+				"materials" : {
+					"top" : "images/soup_top.jpg",
+					"bottom" : "images/soup_bottom.jpg",
+					"label" : "images/one_shot.jpg"
+				},
+				"dimensions" : {
+					"radius" : 1.5,
+					"height" : 6
+				},
+				"quantity" : 42,
+				"price" : 4.00
+			},
+			{
+				"name" : "Pepsi",
+				"department" : "Drinks",
+				"sku" : 6666,
+				"type" : "cylinder",
+				"materials" : {
+					"top" : "images/soup_top.jpg",
+					"bottom" : "images/soup_bottom.jpg",
+					"label" : "images/pepsi_simple.jpg"
+				},
+				"dimensions" : {
+					"radius" : 1.5,
+					"height" : 6
+				},
+				"quantity" : 30,
+				"price" : 1.50
+			},
+			{
+				"name" : "Coke",
+				"department" : "Drinks",
+				"sku" : 7777,
+				"type" : "cylinder",
+				"materials" : {
+					"top" : "images/soup_top.jpg",
+					"bottom" : "images/soup_bottom.jpg",
+					"label" : "images/coke.png"
+				},
+				"dimensions" : {
+					"radius" : 1.5,
+					"height" : 6
+				},
+				"quantity" : 30,
+				"price" : 1.50
+			}
+		],
+		"Cereal" : [
+			{
+				"name" : "Fruit Loops",
+				"sku" : 1111,
+				"type" : "cube",
+				"materials" : {
+					"faces" : 
+					[
+						"images/cereal_left.jpg",
+						"images/cereal_right.jpg",
+						"images/cereal_top.jpg",
+						"images/cereal_bottom.jpg",
+						"images/cereal_front.jpg",
+						"images/cereal_back.jpg"
+					]
+				},
+				"dimensions" : {
+					"length" : 2.75,
+					"width" : 7.625,
+					"height" : 11
+				},
+				"quantity" : 10,
+				"price" : 2.00
+			}, 
+			{
+				"name" : "Boop Doops",
+				"sku" : 2456,
+				"type" : "cube",
+				"materials" : {
+					"faces" : 
+					[
+						"images/cereal_left.jpg",
+						"images/cereal_right.jpg",
+						"images/cereal_top.jpg",
+						"images/cereal_bottom.jpg",
+						"images/cereal_back.jpg",
+						"images/cereal_front.jpg"
+					]
+				},
+				"dimensions" : {
+					"length" : 2.75,
+					"width" : 7.625,
+					"height" : 11
+				},
+				"quantity" : 20,
+				"price" : 10.00
+			},
+			{
+				"name" : "Schmee Gees",
+				"sku" : 1234,
+				"type" : "cube",
+				"materials" : {
+					"faces" : 
+					[
+						"images/cereal_left.jpg",
+						"images/cereal_right.jpg",
+						"images/cereal_top.jpg",
+						"images/cereal_bottom.jpg",
+						"images/cereal_right.jpg",
+						"images/cereal_right.jpg"
+					]
+				},
+				"dimensions" : {
+					"length" : 2.75,
+					"width" : 7.625,
+					"height" : 11
+				},
+				"quantity" : 20,
+				"price" : 11.59
+			}
+		],
+		"Soup" : [
+			{
+				"name" : "Campbell's Soup",
+				"sku" : 1111,
+			 	"type" : "cylinder",
+				"materials" : {
+					"top" : "images/soup_top.jpg",
+					"bottom" : "images/soup_bottom.jpg",
+					"label" : "images/soup.jpg"
+				},
+				"dimensions" : {
+					"radius" : 2,
+					"height" : 4.5
+				},
+				"quantity" : 32,
+				"price" : 4.99
+			},
+			{
+				"name" : "Swift's Soup",
+				"sku" : 2222,
+			 	"type" : "cylinder",
+				"materials" : {
+					"top" : "images/soup_top.jpg",
+					"bottom" : "images/soup_bottom.jpg",
+					"label" : "images/swift_soup.jpeg"
+				},
+				"dimensions" : {
+					"radius" : 2,
+					"height" : 4.5
+				},
+				"quantity" : 32,
+				"price" : 3.99
+			},
+			{
+				"name" : "Pea Soup",
+				"sku" : 3333,
+			 	"type" : "cylinder",
+				"materials" : {
+					"top" : "images/soup_top.jpg",
+					"bottom" : "images/soup_bottom.jpg",
+					"label" : "images/pea_soup.jpg"
+				},
+				"dimensions" : {
+					"radius" : 2,
+					"height" : 4.5
+				},
+				"quantity" : 32,
+				"price" : 3.99
+			}
+		],
+		"Dog Food" : [
+			{
+				"name" : "Jewel",
+				"sku" : 2222,
+			 	"type" : "cylinder",
+				"materials" : {
+					"top" : "images/soup_top.jpg",
+					"bottom" : "images/soup_bottom.jpg",
+					"label" : "images/dogfood/Jewel.jpg"
+				},
+				"dimensions" : {
+					"radius" : 2,
+					"height" : 4.5
+				},
+				"quantity" : 32,
+				"price" : 7.99
+			},
+			{
+				"name" : "Chunky",
+				"sku" : 2222,
+			 	"type" : "cylinder",
+				"materials" : {
+					"top" : "images/soup_top.jpg",
+					"bottom" : "images/soup_bottom.jpg",
+					"label" : "images/dogfood/Chunky.jpg"
+				},
+				"dimensions" : {
+					"radius" : 2,
+					"height" : 4.5
+				},
+				"quantity" : 32,
+				"price" : 6.99
+			},
+			{
+				"name" : "Pedigree",
+				"sku" : 2222,
+			 	"type" : "cylinder",
+				"materials" : {
+					"top" : "images/soup_top.jpg",
+					"bottom" : "images/soup_bottom.jpg",
+					"label" : "images/dogfood/Pedigree.jpg"
+				},
+				"dimensions" : {
+					"radius" : 2,
+					"height" : 4.5
+				},
+				"quantity" : 32,
+				"price" : 6.99
+			},
+			{
+				"name" : "Prime",
+				"sku" : 2222,
+			 	"type" : "cylinder",
+				"materials" : {
+					"top" : "images/soup_top.jpg",
+					"bottom" : "images/soup_bottom.jpg",
+					"label" : "images/dogfood/Prime.jpg"
+				},
+				"dimensions" : {
+					"radius" : 2,
+					"height" : 4.5
+				},
+				"quantity" : 32,
+				"price" : 5.99
+			}
+		],
+		"Ice Cream" : [
+			{
+				"name" : "Mint Chocolate Chip",
+				"sku" : 1111,
+			 	"type" : "cylinder",
+				"materials" : {
+					"top" : "images/soup_top.jpg",
+					"bottom" : "images/soup_bottom.jpg",
+					"label" : "images/mintchocolatechip.jpg"
+				},
+				"dimensions" : {
+					"radius" : 2,
+					"height" : 4.5
+				},
+				"quantity" : 30,
+				"price" : 5.59
+			},
+			{
+				"name" : "Ben & Jerry",
+				"sku" : 1111,
+			 	"type" : "cylinder",
+				"materials" : {
+					"top" : "images/soup_top.jpg",
+					"bottom" : "images/soup_bottom.jpg",
+					"label" : "images/BENNJERRY.jpg"
+				},
+				"dimensions" : {
+					"radius" : 2,
+					"height" : 4.5
+				},
+				"quantity" : 30,
+				"price" : 5.67
+			}
+		],
+		"Fireworks" : [],
+		"Pharmacy" : [],
+		"Garbage Cans" : [],
+		"Hats" : [],
+		"Cheese" : [],
+		"Microwaveable" : []
+	}
+}
